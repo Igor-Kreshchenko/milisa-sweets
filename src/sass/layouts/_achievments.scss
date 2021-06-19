@@ -1,0 +1,37 @@
+.achievements {
+  padding-top: 127px;
+  padding-bottom: 69px;
+}
+
+.achievements-list {
+  @extend %list;
+}
+
+.achievements-item:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.achievements-number {
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-family: $title-text-font;
+  font-size: 56px;
+  line-height: 1.14;
+}
+
+.achievements-descr {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: $first-accent-color;
+}
+
+.achievements-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 2;
+  color: $transparent-text;
+}

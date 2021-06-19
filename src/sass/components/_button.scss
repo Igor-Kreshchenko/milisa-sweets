@@ -1,0 +1,34 @@
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 30px;
+  font-family: $title-text-font;
+  font-size: 16px;
+  line-height: 1.125;
+  text-transform: uppercase;
+  color: $buttons-light-color;
+  background: linear-gradient(180deg, #96e4dd 0%, #5dc4b8 100%);
+  border: transparent;
+  border-radius: 12px;
+
+  &:hover,
+  &:focus {
+    background: #ffffff;
+    color: $second-accent-color;
+    border: 1px solid rgba(93, 196, 184, 0.500198);
+  }
+}
+
+.button-inverse {
+  background: #ffffff;
+  color: $second-accent-color;
+  border: 1px solid rgba(93, 196, 184, 0.500198);
+
+  &:hover,
+  &:focus {
+    color: $buttons-light-color;
+    background: linear-gradient(180deg, #96e4dd 0%, #5dc4b8 100%);
+    border: transparent;
+  }
+}

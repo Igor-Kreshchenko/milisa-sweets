@@ -1,0 +1,25 @@
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  text-decoration: none;
+  font-family: $title-text-font;
+  color: $primary-text-color;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.nav-button {
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid rgba(93, 196, 184, 0.500198);
+}

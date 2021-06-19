@@ -1,0 +1,21 @@
+.hero-images {
+  width: 100%;
+  height: auto;
+  margin-bottom: 45px;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-family: $title-text-font;
+  font-size: 56px;
+  line-height: 1.14;
+}
+
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: $primary-text-color;
+}

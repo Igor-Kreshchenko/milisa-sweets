@@ -5,7 +5,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Milisa Sweets</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elsie:wght@900&family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="/">MS</a>
+        <button
+          type="button"
+          class="nav-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        ></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-images">
+            <img src="./images/hero-img.png" alt="main poster" />
+          </div>
+          <p class="section-pretitle">Food Market</p>
+          <h1 class="hero-title">Welcome to Milisa Sweets Market</h1>
+          <p class="hero-text">
+            The sky was cloudless and of a deep dark blue. The spectacle before
+            us was indeed sublime.
+          </p>
+          <button class="button">See Menu</button>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <p class="section-pretitle">Best Food</p>
+          <h2 class="section-title">Features</h2>
+          <p class="section-text">
+            The sky was cloudless and of a deep dark blue. The spectacle before
+            us was indeed sublime.
+          </p>
+          <ul class="features-list">
+            <li class="features-item">
+              <div class="features-svg-box first-box">
+                <svg width="64" height="64">
+                  <use href="./images/sprite.svg#icon-apple"></use>
+                </svg>
+              </div>
+              <h3 class="features-title">Fresh Food</h3>
+              <p class="features-text">
+                As I went on, still gaining velocity, the palpitation of night
+                and day merged.
+              </p>
+              <a class="features-link" href="#">Explore</a>
+            </li>
+            <li class="features-item">
+              <div class="features-svg-box second-box">
+                <svg width="64" height="64">
+                  <use href="./images/sprite.svg#icon-bike"></use>
+                </svg>
+              </div>
+              <h3 class="features-title">Delivery</h3>
+              <p class="features-text">
+                Went on, still gaining velocity, the palpitation of night and
+                day merged.
+              </p>
+              <a class="features-link" href="#">Download</a>
+            </li>
+            <li class="features-item">
+              <div class="features-svg-box third-box">
+                <svg width="64" height="64">
+                  <use href="./images/sprite.svg#icon-hat"></use>
+                </svg>
+              </div>
+              <h3 class="features-title">Restaurant</h3>
+              <p class="features-text">
+                Still gaining velocity, the went palpitation of night and day
+                merged.
+              </p>
+              <a class="features-link" href="#">Read More</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <div class="about-images"></div>
+          <p class="section-pretitle">About Us</p>
+          <h2 class="section-title">Most Biggest Food Market</h2>
+          <p class="about-posttitle">The sky was cloudless and of a deep</p>
+          <p class="section-text">
+            A peep at some distant orb has power to raise and purify our
+            thoughts like a strain of sacred music.
+          </p>
+          <button class="button button-inverse">About Us</button>
+        </div>
+      </section>
+
+      <section class="achievements">
+        <div class="container">
+          <ul class="achievements-list">
+            <li class="achievements-item">
+              <p class="achievements-number">2020</p>
+              <p class="achievements-descr">Created</p>
+              <p class="achievements-text">
+                As I went on, still gaining velocity, the palpitation
+              </p>
+            </li>
+            <li class="achievements-item">
+              <p class="achievements-number">45+</p>
+              <p class="section-pretitle">Employes</p>
+              <p class="achievements-text">
+                Went on, still gaining velocity, the palpitation
+              </p>
+            </li>
+            <li class="achievements-item">
+              <p class="achievements-number">1000</p>
+              <p class="section-pretitle">Orders</p>
+              <p class="achievements-text">
+                Still gaining velocity, the palpitation of night
+              </p>
+            </li>
+            <li class="achievements-item">
+              <p class="achievements-number">89</p>
+              <p class="section-pretitle">Products</p>
+              <p class="achievements-text">
+                Gaining velocity, the palpitation of night
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu">
+        <div class="container">
+          <p class="section-pretitle">Our Menu</p>
+          <h2 class="section-title">Favorite Food</h2>
+          <p class="section-text">
+            The sky was cloudless and of a deep dark blue. The spectacle before
+            us was indeed sublime.
+          </p>
+          <div class="menu-slider"></div>
+          <button class="button button-inverse">Full Menu</button>
+          <p class="menu-explore">Explore by category</p>
+          <ul class="categories-list">
+            <li class="menu-category first-category"></li>
+            <li class="menu-category second-category"></li>
+            <li class="menu-category third-category"></li>
+            <li class="menu-category fourth-category"></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container">
+          <p class="section-pretitle">Gallery</p>
+          <h2 class="section-title">Food Gallery</h2>
+          <p class="section-text">
+            A peep at some distant orb has power to raise and purify our
+            thoughts like a strain.
+          </p>
+          <div class="gallery-slider"></div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="container">
+          <p class="section-pretitle">Clients Say</p>
+          <h2 class="section-title">Testimonials</h2>
+          <p class="section-text">
+            The sky was cloudless and of a deep dark blue. The spectacle before
+            us was indeed sublime.
+          </p>
+          <div class="reviews-slider"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
