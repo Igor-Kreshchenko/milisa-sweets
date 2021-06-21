@@ -1,0 +1,31 @@
+.social-list {
+  @extend %list;
+
+  display: flex;
+  margin-bottom: 72px;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.social-item-one {
+  background-color: #5dc4b8;
+}
+
+.social-item-two {
+  background-color: #ef633e;
+}
+
+.social-item-three {
+  background-color: #efa322;
+}

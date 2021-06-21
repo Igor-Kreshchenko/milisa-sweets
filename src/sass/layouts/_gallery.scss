@@ -1,6 +1,9 @@
 .gallery {
-  padding-top: 90px;
-  padding-bottom: 83px;
+  .bg-wrapper {
+    padding-top: 90px;
+    padding-bottom: 83px;
+    border-radius: 100px 0px 0px 24px;
+  }
 
   .section-text {
     margin-bottom: 33px;

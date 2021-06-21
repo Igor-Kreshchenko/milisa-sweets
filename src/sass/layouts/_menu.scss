@@ -16,11 +16,8 @@
   }
 }
 
-.menu-slider {
-  margin-bottom: 48px;
-}
-
 .menu-explore {
+  margin-top: 0;
   margin-bottom: 72px;
   font-size: 20px;
   line-height: 1.6;
@@ -35,10 +32,30 @@
 }
 
 .menu-category {
+  position: relative;
   width: 170px;
-  height: 192px;
+  min-height: 192px;
+  padding-top: 122px;
+  padding-bottom: 38px;
   margin: 24px 7px;
   border-radius: 50px 24px 24px 24px;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.menu-svg-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -32px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background-color: $primary-bg-color;
+  box-shadow: 0px 8px 48px rgba(0, 24, 52, 0.080899);
 }
 
 .first-category {

@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Elsie:wght@900&family=Manrope:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
   </head>
 
   <body>
@@ -100,15 +104,19 @@
 
       <section class="about">
         <div class="container">
-          <div class="about-images"></div>
-          <p class="section-pretitle">About Us</p>
-          <h2 class="section-title">Most Biggest Food Market</h2>
-          <p class="about-posttitle">The sky was cloudless and of a deep</p>
-          <p class="section-text">
-            A peep at some distant orb has power to raise and purify our
-            thoughts like a strain of sacred music.
-          </p>
-          <button class="button button-inverse">About Us</button>
+          <div class="bg-wrapper">
+            <div class="about-images">
+              <img src="./images/about-img.png" alt="#" />
+            </div>
+            <p class="section-pretitle">About Us</p>
+            <h2 class="section-title">Most Biggest Food Market</h2>
+            <p class="about-posttitle">The sky was cloudless and of a deep</p>
+            <p class="section-text">
+              A peep at some distant orb has power to raise and purify our
+              thoughts like a strain of sacred music.
+            </p>
+            <button class="button button-inverse">About Us</button>
+          </div>
         </div>
       </section>
 
@@ -155,27 +163,91 @@
             The sky was cloudless and of a deep dark blue. The spectacle before
             us was indeed sublime.
           </p>
-          <div class="menu-slider"></div>
+          <div id="splide" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="./images/menu-slide.jpg" alt="#" />
+                  <p>Paleta de Quesos</p>
+                </li>
+                <li class="splide__slide">
+                  <img src="./images/menu-slide.jpg" alt="#" />
+                  <p>hfghfghfgh</p>
+                </li>
+                <li class="splide__slide">
+                  <img src="./images/menu-slide.jpg" alt="#" />
+                  <p>k,hmbgyjygjy</p>
+                </li>
+              </ul>
+            </div>
+          </div>
           <button class="button button-inverse">Full Menu</button>
           <p class="menu-explore">Explore by category</p>
           <ul class="categories-list">
-            <li class="menu-category first-category"></li>
-            <li class="menu-category second-category"></li>
-            <li class="menu-category third-category"></li>
-            <li class="menu-category fourth-category"></li>
+            <li class="menu-category first-category">
+              <div class="menu-svg-box">
+                <svg width="52" height="52">
+                  <use href="./images/menu-sprite.svg#icon-grapes"></use>
+                </svg>
+              </div>
+              Fruits
+            </li>
+            <li class="menu-category second-category">
+              <div class="menu-svg-box">
+                <svg width="52" height="52">
+                  <use href="./images/menu-sprite.svg#icon-dish"></use>
+                </svg>
+              </div>
+              Dinner
+            </li>
+            <li class="menu-category third-category">
+              <div class="menu-svg-box">
+                <svg width="52" height="52">
+                  <use href="./images/menu-sprite.svg#icon-cake"></use>
+                </svg>
+              </div>
+              Bakery
+            </li>
+            <li class="menu-category fourth-category">
+              <div class="menu-svg-box">
+                <svg width="52" height="52">
+                  <use href="./images/menu-sprite.svg#icon-glass"></use>
+                </svg>
+              </div>
+              Drinks
+            </li>
           </ul>
         </div>
       </section>
 
       <section class="gallery">
         <div class="container">
-          <p class="section-pretitle">Gallery</p>
-          <h2 class="section-title">Food Gallery</h2>
-          <p class="section-text">
-            A peep at some distant orb has power to raise and purify our
-            thoughts like a strain.
-          </p>
-          <div class="gallery-slider"></div>
+          <div class="bg-wrapper gallery-wrapper">
+            <p class="section-pretitle">Gallery</p>
+            <h2 class="section-title">Food Gallery</h2>
+            <p class="section-text">
+              A peep at some distant orb has power to raise and purify our
+              thoughts like a strain.
+            </p>
+            <div id="splide2" class="splide">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <img src="./images/menu-slide.jpg" alt="#" />
+                    <p>Paleta de Quesos</p>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="./images/menu-slide.jpg" alt="#" />
+                    <p>hfghfghfgh</p>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="./images/menu-slide.jpg" alt="#" />
+                    <p>k,hmbgyjygjy</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -187,11 +259,142 @@
             The sky was cloudless and of a deep dark blue. The spectacle before
             us was indeed sublime.
           </p>
-          <div class="reviews-slider"></div>
+          <div id="splide3" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="./images/menu-slide.jpg" alt="#" />
+                  <p>Paleta de Quesos</p>
+                </li>
+                <li class="splide__slide">
+                  <img src="./images/menu-slide.jpg" alt="#" />
+                  <p>hfghfghfgh</p>
+                </li>
+                <li class="splide__slide">
+                  <img src="./images/menu-slide.jpg" alt="#" />
+                  <p>k,hmbgyjygjy</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="container">
+          <div class="bg-wrapper">
+            <p class="section-pretitle">Our Blog</p>
+            <h2 class="section-title">Articles</h2>
+            <p class="section-text">
+              The sky was cloudless and of a deep dark blue. The spectacle
+              before us was indeed sublime.
+            </p>
+            <div id="splide4" class="splide">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <img src="./images/menu-slide.jpg" alt="#" />
+                    <p>Paleta de Quesos</p>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="./images/menu-slide.jpg" alt="#" />
+                    <p>hfghfghfgh</p>
+                  </li>
+                  <li class="splide__slide">
+                    <img src="./images/menu-slide.jpg" alt="#" />
+                    <p>k,hmbgyjygjy</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="map">
+        <div class="container">
+          <p class="section-pretitle">We On Map</p>
+          <h2 class="section-title">Find Our Market</h2>
+          <p class="section-text">
+            The sky was cloudless and of a deep dark blue.
+          </p>
+        </div>
+      </section>
+
+      <section class="order">
+        <div class="container">
+          <div class="order-card">
+            <h2 class="section-title">Order Now</h2>
+            <p class="section-text">
+              The sky was cloudless and of a deep dark blue.
+            </p>
+            <button class="button">Contact Us</button>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo" href="/">MS</a>
+        <ul class="social-list">
+          <li class="social-item social-item-one">
+            <div class="social-svg-box">
+              <svg width="16" height="16">
+                <use href="./images/social-sprite.svg#icon-facebook"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="social-item social-item-two">
+            <div class="social-svg-box">
+              <svg width="16" height="16">
+                <use href="./images/social-sprite.svg#icon-twitter"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="social-item social-item-three">
+            <div class="social-svg-box">
+              <svg width="16" height="16">
+                <use href="./images/social-sprite.svg#icon-instagram"></use>
+              </svg>
+            </div>
+          </li>
+        </ul>
+        <nav class="footer-nav">
+          <div class="footer-nav-box">
+            <p class="pretitle">Menu</p>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="">About</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="">Menu</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="">Blog</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-nav-box">
+            <p class="pretitle">Features</p>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="">Fresh Food</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="">Restaurant</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="">Delivery</a>
+              </li>
+            </ul>
+            <ul></ul>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

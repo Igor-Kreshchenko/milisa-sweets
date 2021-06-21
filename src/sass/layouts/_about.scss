@@ -1,10 +1,14 @@
 .about {
-  padding-top: 392px;
-  padding-bottom: 80px;
+  position: relative;
 
   .section-text {
     margin-bottom: 16px;
   }
+}
+
+.about-images {
+  position: absolute;
+  top: -32px;
 }
 
 .about-posttitle {
