@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{"0HMw":function(n,w,e){},QfWi:function(n,w,e){"use strict";e.r(w);e("0HMw");var i=e("P5co"),o=e.n(i);new o.a("#splide",{}).mount(),new o.a("#splide2",{}).mount(),new o.a("#splide3",{}).mount(),new o.a("#splide4",{}).mount()}},[["QfWi",1,2]]]);
-//# sourceMappingURL=main.52bfe680ed515614bd99.js.map
