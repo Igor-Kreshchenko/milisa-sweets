@@ -1,21 +1,5 @@
-import Splide from '@splidejs/splide';
+import Glide from '@glidejs/glide';
 
-new Splide('#splide', {
-  // pagination: 'false',
-  // arrows: 'slider',
-}).mount();
-
-new Splide('#splide2', {
-  // pagination: 'false',
-  // arrows: 'slider',
-}).mount();
-
-new Splide('#splide3', {
-  // pagination: 'false',
-  // arrows: 'slider',
-}).mount();
-
-new Splide('#splide4', {
-  // pagination: 'false',
-  // arrows: 'slider',
-}).mount();
+new Glide('.glide').mount();
+new Glide('.glide2', { gap: 30 }).mount();
+new Glide('.glide3').mount();

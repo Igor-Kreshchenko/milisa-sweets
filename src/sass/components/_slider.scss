@@ -1,8 +1,24 @@
-.splide {
-  // margin-bottom: 48px;
+.glide {
+  margin-bottom: 48px;
 }
 
-.splide__slide {
-  // box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
-  // border-radius: 100px 24px 24px 24px;
+.glide__track {
+  overflow: visible;
+  margin-bottom: 48px;
+}
+
+.glide__slides {
+  overflow: visible;
+}
+
+.glide__bullet {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: transparent;
+  background-color: $first-accent-color;
+
+  &:not(:last-child) {
+    margin-right: 18px;
+  }
 }
